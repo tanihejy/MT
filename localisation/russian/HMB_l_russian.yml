@@ -1,0 +1,48 @@
+﻿l_russian:
+
+### Персонажи ###
+ HMB_Barin: "Барин"
+
+### Партии ###
+
+### Решения ###
+
+
+### Идеи ###
+
+
+### Название страны ###
+ HMB_fascism: "Большое бурято-монгольское государство наследников Юань"
+ HMB_fascism_DEF: "Большое бурято-монгольское государство наследников Юань"
+ HMB_fascism_ADJ: "Юань-монгольск"
+
+ HMB_democratic: "Республика Бурятия"
+ HMB_democratic_DEF: "Республика Бурятия"
+ HMB_democratic_ADJ: "Бурятск"
+
+ HMB_communism: "Союз бурято-монгольских народов"
+ HMB_communism_DEF: "Союз бурято-монгольских народов"
+ HMB_communism_ADJ: "Бурято-монгольск"
+
+ HMB_neutrality: "Дхарматическое королевство Бурятия"
+ HMB_neutrality_DEF: "Дхарматическое королевство Бурятия"
+ HMB_neutrality_ADJ: "Бурятск"
+
+ HMB_SOV_communism_subject: "Бурято-монгольская автономная советская социалистическая республика"
+ HMB_SOV_communism_subject_DEF: "Бурято-монгольская автономная советская социалистическая республика"
+ HMB_SOV_communism_subject_ADJ: "Бурято-монгольск"
+ HMB_JAP_neutrality_subject: "Трансмонгольский протекторат"
+ HMB_JAP_neutrality_subject_DEF: "Трансмонгольский протекторат"
+ HMB_JAP_neutrality_subject_ADJ: "Трансмонгольск"
+ HMB_JAP_fascism_subject: "Улан-Удэнская автономная армия"
+ HMB_JAP_fascism_subject_DEF: "Улан-Удэнская автономная армия"
+ HMB_JAP_fascism_subject_ADJ: "Улан-Удэнск"
+
+
+### Ивенты ###
+
+
+### Фокусы ###
+ HMB_start: "???"
+
+

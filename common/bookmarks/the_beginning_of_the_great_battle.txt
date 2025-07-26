@@ -1,0 +1,115 @@
+
+
+bookmarks = {
+	bookmark = {
+		name = "GREAT_BATTLE_BEGINS_NAME"
+		desc = "GREAT_BATTLE_BEGINS_DESC"
+        date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "PAW"
+		default = yes
+
+		OLG = {
+			history = OLG_GREAT_BATTLE_BEGINS_DESC
+			ideology = neutrality
+			ideas={
+				OLG_Anti-Migrant_Bureau
+			}
+			focuses = {
+				OLG_start
+				OLG_Establish_an_Anti-Migrant_Bureau
+			}
+		}
+
+		PAW = {
+			history = PWA_GREAT_BATTLE_BEGINS_DESC
+			ideology = communism
+			ideas={
+				PAW_kgb
+			}
+			focuses = {
+				PAW_start
+				PAW_create_kgb
+			}
+		}
+
+		KRT = {
+			history = KRT_GREAT_BATTLE_BEGINS_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
+
+		KAZ = {
+			history = KAZ_GREAT_BATTLE_BEGINS_DESC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+			}
+		}
+
+		CHC = {
+			history = CHC_GREAT_BATTLE_BEGINS_DESC
+			ideology = fascism
+			ideas={
+			}
+			focuses = {
+			}
+		}
+
+		PNH = {
+			history = PNH_GREAT_BATTLE_BEGINS_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
+
+		GRH = {
+			history = GRH_GREAT_BATTLE_BEGINS_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GREAT_BATTLE_BEGINS_DESC"
+        }
+
+		HMB = {
+			history = HMB_GREAT_BATTLE_BEGINS_DESC
+			minor = yes
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+			}
+		}
+
+		NKO = {
+			history = NKO_GREAT_BATTLE_BEGINS_DESC
+			minor = yes
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
+
+		MST = {
+			history = MST_GREAT_BATTLE_BEGINS_DESC
+			minor = yes
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+			}
+		}
+	}
+}

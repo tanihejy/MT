@@ -1,0 +1,44 @@
+﻿l_russian:
+
+### Персонажи ###
+ CHC_Heisenberg: "Хайзенберг"
+
+### Партии ###
+ CHC_fascism_party: "Партия «Amanat»"
+
+
+### Решения ###
+
+
+### Идеи ###
+
+
+### Название страны ###
+ CHC_fascism: "Алаш-Орда"
+ CHC_fascism_DEF: "Алаш-Орда"
+
+ CHC_democratic: "Казахстан"
+ CHC_democratic_DEF: "Казахстан"
+
+ CHC_neutrality: "Казахстанское ханство"
+ CHC_neutrality_DEF: "Казахстанское ханство"
+
+ CHC_communism: "Казахская Советская Социалистическая Республика"
+ CHC_communism_DEF: "Казахская Советская Социалистическая Республика"
+
+ CHC_fascism_ADJ: "Казахстанск"
+ CHC_democratic_ADJ: "Казахстанск"
+ CHC_neutrality_ADJ: "Казахстанск"
+ CHC_communism_ADJ: "Казахстанск"
+ CHC: "Казахстан"
+ CHC_DEF: "Казахстан"
+ CHC_ADJ: "Казахстанск"
+
+
+### Ивенты ###
+
+
+### Фокусы ###
+ CHC_start: ""
+
+

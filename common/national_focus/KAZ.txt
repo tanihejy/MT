@@ -1,0 +1,57 @@
+search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+	
+	FOCUS_FILTER_RESEARCH = 522
+	
+	FOCUS_FILTER_INDUSTRY = 509
+
+	FOCUS_FILTER_BALANCE_OF_POWER = 200
+	FOCUS_FILTER_SOV_POLITICAL_PARANOIA = 111
+	FOCUS_FILTER_PROPAGANDA = 110
+	FOCUS_FILTER_MISSIOLINI = 110
+	FOCUS_FILTER_ARMY_XP = 103
+	FOCUS_FILTER_NAVY_XP = 102
+	FOCUS_FILTER_AIR_XP = 101
+}
+
+	
+
+focus_tree = {
+	id = kaz
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KAZ
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 20 y = 1000 }
+	
+	focus = {
+		id = KAZ_UBIR
+		icon = GFX_focus_BRA_air_force
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		cost = 5
+		x = 1
+		y = 0
+	    completion_reward = {
+			create_intelligence_agency = {
+				name = "УБИР"
+				icon = GFX_intelligence_agency_logo_agency
+			}
+
+			create_operative_leader = {
+				name = "Алан Хаятуллах"
+				GFX = GFX_portrait_KAZ_Alan_Hayatullah
+				traits = { operative_infiltrator operative_natural_orator }
+				bypass_recruitment = no
+				available_to_spy_master = yes
+				nationalities = { KAZ CHC HMB }
+			}
+        }
+	}
+}

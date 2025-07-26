@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_goal_KAZ_Heisenberg"
+	texturefile = "gfx/interface/goals/KAZ/focus_KAZ_Heisenberg.dds"			
+	}	
+	
+}

@@ -1,0 +1,45 @@
+﻿l_russian:
+
+### Персонажи ###
+ OLG_Oleg: "Олег Бахчисарайский"
+
+### Партии ###
+
+### Решения ###
+
+
+### Идеи ###
+ OLG_Anti-Migrant_Bureau: "Антимигрантское Бюро"
+
+### Название страны ###
+ OLG_fascism: "Екатеринбург"
+ OLG_fascism_DEF: "Екатеринбург"
+ OLG_fascism_ADJ: "Екатеринбургск"
+
+ OLG_democratic: "Екатеринбург"
+ OLG_democratic_DEF: "Екатеринбург"
+ OLG_democratic_ADJ: "Екатеринбургск"
+
+ OLG_communism: "Екатеринбург"
+ OLG_communism_DEF: "Екатеринбург"
+ OLG_communism_ADJ: "Екатеринбургск"
+
+
+ OLG_neutrality: "Екатеринбург"
+ OLG_neutrality_DEF: "Екатеринбург"
+ OLG_neutrality_ADJ: "Екатеринбургск"
+
+
+### Ивенты ###
+
+
+### Фокусы ###
+ OLG_start: "Очистить сортировку чурок"
+ OLG_start_desc: "Чурки заняли большинства наших территорий и жк, единственное решение это убить чурок"
+
+ OLG_Establish_an_Anti-Migrant_Bureau: "Учредить Антимигрантское бюро"
+ OLG_Establish_an_Anti-Migrant_Bureau_desc: "учередить правительственную организацию которая будет заниматься поиском чурок и иных мигрантов разрушающих нашу отчизну"
+
+
+
+

@@ -1,0 +1,78 @@
+ideas = {
+	country = {
+		CIK_net = { #страна в разработке
+		
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = "ast_classify_aliens"
+			
+			modifier = {
+				stability_factor = -0.01
+			}
+		}
+		CIK_da = { #страна готова
+		
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = "ETH_conservative_high_command"
+			
+			modifier = {
+				stability_factor = 0.01
+			}
+		}
+
+		OLG_Anti-Migrant_Bureau = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = "generic_pp_unity_bonus"
+			
+			modifier = {
+				army_core_defence_factor = 0.1
+				operative_slot = 1
+			}
+		}
+
+		PAW_kgb = {
+
+			removal_cost = -1
+			picture = "nkvd_2"
+
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				tag = PAW
+			}
+
+			modifier = {
+				subversive_activites_upkeep = -0.5
+				operative_slot = 1
+				root_out_resistance_effectiveness_factor = 0.1
+				resistance_damage_to_garrison = -0.05
+			}
+		}
+    }
+}

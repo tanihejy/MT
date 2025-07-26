@@ -1,0 +1,86 @@
+characters = {
+
+    KAZ_Fantom = {
+		name = KAZ_Fantom
+		desc = KAZ_Fantom_desc
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_KAZ_Fantom"
+			}
+            army = {
+                large = "GFX_portrait_KAZ_Fantom"
+            }
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {  } 
+			expire="1965.1.1.1"
+			id = -9004
+		}
+        field_marshal = {
+            traits = { media_personality }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+	}
+
+	KAZ_Phantomo-Al-Kaido = {
+		name = KAZ_Phantomo-Al-Kaido
+		portraits = {
+			army = {
+				large = "GFX_portrait_KAZ_Phantomo-Al-Kaido"
+				small = "GFX_idea_KAZ_Phantomo-Al-Kaido"
+			}
+		}
+		corps_commander={
+			traits = { infantry_officer }
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=1
+		}
+	}
+
+	KAZ_Alan_Hayatullah = {
+		name = KAZ_Alan_Hayatullah
+		portraits = {
+			army = {
+				large = "GFX_portrait_KAZ_Alan_Hayatullah"
+				small = "GFX_idea_KAZ_Agent"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = KAZ_Alan_Hayatullah
+			allowed = {
+				original_tag = KAZ
+			}
+			available = { }
+			traits = { UBIR_agent }
+			cost = 150
+		}
+	}
+
+	KAZ_Alan_Bacha = {
+		name = KAZ_Alan_Bacha
+		portraits = {
+			army = {
+				small = "GFX_idea_KAZ_Alan_Bacha"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = KAZ_Alan_Bacha
+			allowed = {
+				original_tag = KAZ
+			}
+			available = { }
+			traits = { great_architect_2 }
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,46 @@
+﻿l_russian:
+
+### Персонажи ###
+ NKO_Niko: "Нико"
+
+### Партии ###
+
+### Решения ###
+
+
+### Идеи ###
+
+
+### Название страны ###
+ NKO_fascism: "Кавказская администрация"
+ NKO_fascism_DEF: "Кавказская администрация"
+
+ NKO_GER_fascism_subject: "Рейхскомиссариат Кавказ"
+ NKO_GER_fascism_subject_DEF: "Рейхскомиссариат Кавказ"
+
+ NKO_democratic: "Республика Грузия"
+ NKO_democratic_DEF: "Республика Грузия"
+
+ NKO_neutrality: "Королевство Грузия" #Was Free State of St. George
+ NKO_neutrality_DEF: "Королевство Грузия"
+
+ NKO_communism: "Грузинская социалистическая республика"
+ NKO_communism_DEF: "Грузинская социалистическая республика"
+
+ NKO_fascism_ADJ: "Грузинск"
+ NKO_democratic_ADJ: "Грузинск"
+ NKO_neutrality_ADJ: "Грузинск"
+ NKO_communism_ADJ: "Грузинск"
+ 
+ NKO: "Грузия"
+ NKO_DEF: "Грузия"
+ NKO_ADJ: "Грузинск"
+
+
+### Ивенты ###
+
+
+### Фокусы ###
+ NKO_start: "???"
+
+

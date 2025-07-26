@@ -1,0 +1,28 @@
+characters = {
+
+    KRT_Kort = {
+		name = KRT_Kort
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_KRT_Kort"
+			}
+            army = {
+                large = "GFX_portrait_KRT_Kort"
+            }
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  } 
+			expire="1965.1.1.1"
+			id = -9002
+		}
+        field_marshal = {
+            traits = { media_personality }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+	}
+}

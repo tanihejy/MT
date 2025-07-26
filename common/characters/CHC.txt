@@ -1,0 +1,28 @@
+characters = {
+
+    CHC_Heisenberg = {
+		name = CHC_Heisenberg
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_CHC_Heisenberg"
+			}
+			army = {
+				large = "GFX_portrait_CHC_Heisenberg"
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			traits = {  } 
+			expire="1965.1.1.1"
+			id = -9004
+		}
+        field_marshal = {
+            traits = { media_personality }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+	}
+}

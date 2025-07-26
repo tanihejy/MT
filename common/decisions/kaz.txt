@@ -1,0 +1,48 @@
+KAZ_qq = {
+    KAZ_q = {
+        icon = generic_assassination
+        available = { original_tag = KAZ }
+        cost = 500
+        visible = {  }
+        fire_only_once = yes 
+        remove_effect = {}
+        complete_effect = { 
+            add_war_support = 0.25
+            add_stability = -0.25
+            add_offsite_building = { 
+                type = industrial_complex level = 4
+            }
+            add_offsite_building = { 
+                type = arms_factory level = 2 
+            }
+            start_civil_war = {
+                ideology = democratic
+                size = 0.1
+                states = all
+                states_filter = {
+                    is_on_continent = europe
+                    is_capital = no
+                }
+            }
+            ENG = {
+                create_wargoal = {
+                    type = topple_government
+                    target = KAZ
+                }
+            }
+            FRA = {
+                create_wargoal = {
+                    type = topple_government
+                    target = KAZ
+                }
+            }
+            USA = {
+                create_wargoal = {
+                    type = topple_government
+                    target = KAZ
+                }
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+}

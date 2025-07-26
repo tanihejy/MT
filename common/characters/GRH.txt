@@ -1,0 +1,27 @@
+characters = {
+
+    GRH_Grach = {
+		name = GRH_Grach
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_GRH_Grach"
+			}
+            army = {
+                large = "GFX_portrait_GRH_Grach"
+            }
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			traits = {  } 
+			expire="1965.1.1.1"
+		}
+        field_marshal = {
+            traits = { media_personality }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+	}
+}

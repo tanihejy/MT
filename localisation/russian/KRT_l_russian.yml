@@ -1,0 +1,39 @@
+﻿l_russian:
+
+### Персонажи ###
+ KRT_Kort: "Корт"
+
+### Партии ###
+
+### Решения ###
+
+
+### Идеи ###
+
+
+### Название страны ###
+ KRT_fascism: "Великое Княжество Тверское"
+ KRT_fascism_DEF: "Великое Княжество Тверское"
+ KRT_fascism_ADJ: "Тверск"
+
+ KRT_democratic: "Тверская Республика"
+ KRT_democratic_DEF: "Тверская Республика"
+ KRT_democratic_ADJ: "Тверск"
+
+ KRT_communism: "Калининская Народная Республика"
+ KRT_communism_DEF: "Калининская Народная Республика"
+ KRT_communism_ADJ: "Калининск"
+
+
+ KRT_neutrality: "Тверь"
+ KRT_neutrality_DEF: "Тверь"
+ KRT_neutrality_ADJ: "Тверск"
+
+
+### Ивенты ###
+
+
+### Фокусы ###
+ KRT_start: ""
+
+

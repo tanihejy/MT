@@ -1,0 +1,27 @@
+
+#PAW - Паук
+#KRT - Корт
+#OLG - Олег
+#KAZ - Фантом
+#CHC - Чучундра
+#PNH - Панихида
+#HMB - Барин
+#NKO - Нико
+#GRH - Грач
+
+#MST - Страшный сервер
+
+##################################################################################
+##################################################################################
+##################################################################################
+
+PAW = "countries/Udmurtia.txt"
+KRT = "countries/Tver.txt"
+OLG = "countries/Ekb.txt"
+KAZ = "countries/Kazakhstan.txt"
+CHC = "countries/Chuchundra.txt"
+PNH = "countries/Murmansk.txt"
+HMB = "countries/Buryatia.txt"
+NKO = "countries/Georgia.txt"
+GRH = "countries/Grach.txt"
+MST = "countries/MST.txt"

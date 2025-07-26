@@ -1,0 +1,42 @@
+﻿l_russian:
+
+### Персонажи ###
+ PAW_payk: "Пажилой Павук"
+ PAW_general_andruha: "Андрюха Арматура"
+ PAW_general_glent: "Глент"
+
+### Партии ###
+ PAW_communism_party: "СДПО"
+ PAW_communism_party_long: "Социал-Демократическая Партия Ошмеса"
+
+
+### Решения ###
+
+
+### Идеи ###
+ PAW_kgb: "КГБ Ошмеса"
+
+### Название страны ###
+ PAW_fascism: "Удмуртия"
+ PAW_fascism_DEF: "Удмуртия"
+ PAW_democratic: "Удмуртия"
+ PAW_democratic_DEF: "Республика Удмуртия"
+ PAW_communism: "Народная республика Удмуртия"
+ PAW_communism_DEF: "Народная республика Удмуртия"
+ PAW_neutrality: "Удмуртия"
+ PAW_neutrality_DEF: "Удмуртия"
+ PAW_fascism_ADJ: "Удмуртск"
+ PAW_democratic_ADJ: "Удмуртск"
+ PAW_communism_ADJ: "Удмуртск"
+ PAW_neutrality_ADJ: "Удмуртск"
+
+
+### Ивенты ###
+
+
+### Фокусы ###
+ PAW_start: "Приехать в Ошмеc"
+ PAW_start_desc: "Приехать в Ошмеc"
+ PAW_create_kgb: "Создать КГБ"
+ PAW_create_kgb_desc: "Создать КГБ Ошмеса"
+

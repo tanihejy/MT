@@ -1,0 +1,36 @@
+characters = {
+
+    MST_Shokov = {
+		name = MST_Shokov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_MST_Shokov"
+			}
+            army = {
+                large = "GFX_portrait_MST_Shokov"
+            }
+		}
+		country_leader = {
+			ideology = socialism
+			traits = { MST_Curator } 
+			expire="1965.1.1.1"
+		}
+	}
+
+    MST_Kastilov = {
+		name = MST_Kastilov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_MST_Kastilov"
+			}
+            army = {
+                large = "GFX_portrait_MST_Kastilov"
+            }
+		}
+		country_leader = {
+			ideology = nazism
+			traits = { MST_Curator } 
+			expire="1965.1.1.1"
+		}
+	}
+}

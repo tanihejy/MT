@@ -1,0 +1,28 @@
+characters = {
+
+    OLG_Oleg = {
+		name = OLG_Oleg
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_OLG_Oleg"
+			}
+            army = {
+                large = "GFX_portrait_OLG_Oleg"
+            }
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  } 
+			expire="1965.1.1.1"
+			id = -9003
+		}
+        field_marshal = {
+            traits = { media_personality }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+        }
+	}
+}

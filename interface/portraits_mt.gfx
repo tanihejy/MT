@@ -1,0 +1,68 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_KRT_Kort"
+		texturefile = "gfx/leaders/KRT/KRT_Kort.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PAW_payk"
+		texturefile = "gfx/leaders/PAW/PAW_payk.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_OLG_Oleg"
+		texturefile = "gfx/leaders/OLG/OLG_Oleg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHC_Heisenberg"
+		texturefile = "gfx/leaders/CHC/CHC_Heisenberg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PAW_general_andruha"
+		texturefile = "gfx/leaders/PAW/PAW_general_andruha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PAW_general_glent"
+		texturefile = "gfx/leaders/PAW/PAW_general_glent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PNH_Panihida"
+		texturefile = "gfx/leaders/PNH/PNH_Panihida.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRH_Grach"
+		texturefile = "gfx/leaders/GRH/GRH_Grach.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KAZ_Fantom"
+		texturefile = "gfx/leaders/KAZ/KAZ_Fantom.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KAZ_Phantomo-Al-Kaido"
+		texturefile = "gfx/leaders/KAZ/KAZ_Phantomo-Al-Kaido.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KAZ_Alan_Hayatullah"
+		texturefile = "gfx/leaders/KAZ/KAZ_Alan_Hayatullah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HMB_Barin"
+		texturefile = "gfx/leaders/HMB/HMB_Barin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MST_Shokov"
+		texturefile = "gfx/leaders/MST/MST_Shokov.dds"
+	}
+	
+}

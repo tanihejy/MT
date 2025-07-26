@@ -1,0 +1,131 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_idea_trotskyite_plot_nsb_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_trotskyite_plot.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_trotskyite_plot_purged_nsb_ccp_sov_compatibility" #Needs to fix automatic hook in
+		texturefile = "gfx/interface/ideas/SOV_trotskyite_plot_purged.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_desperate_measures_ns_nsb_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_desperate_measures.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_the_iron_wall_of_russian_resolve_nsb_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_the_iron_wall_of_russian_resolve.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_rehabilitated_military_ns_nsb_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_rehabilitated_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_the_local_soviets_idea_nsb_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_the_local_soviets.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_smersh_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_smersh.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_smersh_no_lar_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_smersh.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_defense_industry_artillery_bonus_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_soviet_artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_humanism_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_keep_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_keep_humanism_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_swap_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_swap_humanism_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_politicized_military_battle_priests_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_politicized_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_honest_serfdom_idea_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_honest_serfdom.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_consolidate_power_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_consolidate_power.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_restore_the_glory_of_the_motherland_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_restore_the_glory_of_the_motherland.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_rebuild_the_nation_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_rebuild_the_nation.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_restoration_and_development_idea_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/generic_construction_repair.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_romanov_reconstruction_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_romanov_reconstruction.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_rebuild_the_savior_cathedral_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_rebuild_the_savior_cathedral.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_our_slavic_commitments_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_our_slavic_commitments.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_national_brotherhood_idea_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_national_brotherhood.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_russian_corporate_state_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_russian_corporate_state.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_legacy_of_rome_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_legacy_of_rome.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_memories_of_1905_idea_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_memories_of_1905.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_siberian_lessons_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_siberian_lessons.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_modernize_the_far_eastern_fleet_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/generic_modernize_the_fleet.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_modernize_the_far_eastern_fleet_vanilla_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/generic_modernize_the_fleet.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_SOV_an_empire_in_the_pacific_idea_ccp_sov_compatibility"
+		texturefile = "gfx/interface/ideas/SOV_an_empire_in_the_pacific.dds"
+	}
+}

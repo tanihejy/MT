@@ -1,0 +1,39 @@
+﻿l_russian:
+
+### Персонажи ###
+ PNH_Panihida: "Панихида"
+
+### Партии ###
+
+### Решения ###
+
+
+### Идеи ###
+
+
+### Название страны ###
+ PNH_fascism: "Мурманск"
+ PNH_fascism_DEF: "Мурманск"
+ PNH_fascism_ADJ: "Мурманск"
+
+ PNH_democratic: "Мурманская Республика"
+ PNH_democratic_DEF: "Мурманская Республика"
+ PNH_democratic_ADJ: "Мурманск"
+
+ PNH_communism: "Мурманская Народная Республика"
+ PNH_communism_DEF: "Мурманская Народная Республика"
+ PNH_communism_ADJ: "Мурманск"
+
+
+ PNH_neutrality: "Мурманск"
+ PNH_neutrality_DEF: "Мурманск"
+ PNH_neutrality_ADJ: "Мурманск"
+
+
+### Ивенты ###
+
+
+### Фокусы ###
+ PNH_start: ""
+
+

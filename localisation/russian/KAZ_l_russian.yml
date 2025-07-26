@@ -1,0 +1,49 @@
+﻿l_russian:
+
+### Персонажи ###
+ KAZ_Fantom: "Фантом"
+ KAZ_Fantom_desc: "Discord: jluc3"
+ KAZ_Phantomo-Al-Kaido: "Phantomo-Al Kaido"
+ KAZ_Alan_Hayatullah: "Алан Хаятуллах"
+ KAZ_Alan_Bacha: "Алан Бача"
+
+### Партии ###
+
+### Решения ###
+ KAZ_qq: "Специальные операции"
+ KAZ_qq_desc: "Фантом наш великий лидер может начать проведения спец операций для повышение стабильности в нашей стране"
+
+ KAZ_q: "УБИТЬ ВСЕХ ПИДОРАСОВ НА ЛЕВОМ БЕРЕГУ АСТАНЫ"
+
+### Идеи ###
+
+
+### Название страны ###
+ KAZ_fascism: "Алаш-Орда"
+ KAZ_fascism_DEF: "Алаш-Орда"
+
+ KAZ_democratic: "Казахстан"
+ KAZ_democratic_DEF: "Казахстан"
+
+ KAZ_neutrality: "Казахстанское ханство"
+ KAZ_neutrality_DEF: "Казахстанское ханство"
+
+ KAZ_communism: "Казахская Советская Социалистическая Республика"
+ KAZ_communism_DEF: "Казахская Советская Социалистическая Республика"
+
+ KAZ_fascism_ADJ: "Казахстанск"
+ KAZ_democratic_ADJ: "Казахстанск"
+ KAZ_neutrality_ADJ: "Казахстанск"
+ KAZ_communism_ADJ: "Казахстанск"
+ KAZ: "Казахстан"
+ KAZ_DEF: "Казахстан"
+ KAZ_ADJ: "Казахстанск"
+
+
+### Ивенты ###
+
+
+### Фокусы ###
+ KAZ_UBIR: "Создание УБИР"
+ KAZ_UBIR_desc: "ыыыы"
+

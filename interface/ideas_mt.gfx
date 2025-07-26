@@ -1,0 +1,34 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_KAZ_Heisenberg"
+		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_GEN_Heisenberg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PAW_general_andruha"
+		texturefile = "gfx/interface/ideas/advisors/PAW/PAW_general_andruha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PAW_general_glent"
+		texturefile = "gfx/interface/ideas/advisors/PAW/PAW_general_glent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KAZ_Phantomo-Al-Kaido"
+		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_GEN_Phantomo-Al-Kaido.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KAZ_Agent"
+		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_Agent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KAZ_Alan_Bacha"
+		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_Alan_Bacha.dds"
+	}
+
+	
+}

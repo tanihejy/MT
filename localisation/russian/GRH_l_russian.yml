@@ -1,0 +1,49 @@
+﻿l_russian:
+
+### Персонажи ###
+ GRH_Grach: "Грач"
+
+### Партии ###
+
+### Решения ###
+
+
+### Идеи ###
+
+
+### Название страны ###
+ GRH_fascism: "Восточная Сибирская империя"
+ GRH_fascism_DEF: "Восточная Сибирская империя"
+
+ GRH_democratic: "Дальневосточная республика"
+ GRH_democratic_DEF: "Дальневосточная республика"
+
+ GRH_communism: "Дальневосточная коммуна"
+ GRH_communism_DEF: "Дальневосточная коммуна"
+
+ GRH_neutrality: "Независимое государство Дальний Восток"
+ GRH_neutrality_DEF: "Независимое государство Дальний Восток"
+
+ GRH_fascism_ADJ: "Восточно-сибирск"
+ GRH_democratic_ADJ: "Дальневосточн"
+ GRH_communism_ADJ: "Дальневосточн"
+ GRH_neutrality_ADJ: "Дальневосточн"
+
+ GRH_SOV_communism_subject: "Дальневосточная советская республика"
+ GRH_SOV_communism_subject_DEF: "Дальневосточная советская республика"
+ GRH_SOV_communism_subject_ADJ: "Дальневосточн"
+ GRH_JAP_neutrality_subject: "Японский Дальневосточный протекторат"
+ GRH_JAP_neutrality_subject_DEF: "Японский Дальневосточный протекторат"
+ GRH_JAP_neutrality_subject_ADJ: "Сибирско-японск"
+ GRH_JAP_fascism_subject: "Восточно-сибирская армия"
+ GRH_JAP_fascism_subject_DEF: "Восточно-сибирская армия"
+ GRH_JAP_fascism_subject_ADJ: "Восточно-сибирск"
+
+
+### Ивенты ###
+
+
+### Фокусы ###
+ KRT_start: ""
+
+
