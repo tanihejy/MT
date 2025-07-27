@@ -32,9 +32,8 @@ focus_tree = {
 	
 	focus = {
 		id = NKO_start
-		icon = 
+		icon = army_effort
 
-		search_filters = { FOCUS_FILTER_POLITICAL }
 		cost = 5
 		x = 1
 		y = 0
