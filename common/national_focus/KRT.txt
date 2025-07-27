@@ -1,0 +1,57 @@
+focus_tree = {
+	id = krt
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KRT
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 20 y = 1000 }
+	
+	focus = {
+		id = KRT_start
+		icon = GFX_focus_AUS_the_evidenzburo_democratic
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		cost = 5
+		x = 1
+		y = 0
+	    completion_reward = {
+			add_political_power = 50
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+        }
+	}
+}
