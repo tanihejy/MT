@@ -46,6 +46,7 @@ bookmarks = {
 			history = KAZ_GREAT_BATTLE_BEGINS_DESC
 			ideology = democratic
 			ideas={
+				KAZ_Saryarqa_1
 			}
 			focuses = {
 			}

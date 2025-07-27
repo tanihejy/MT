@@ -10386,6 +10386,12 @@ spriteTypes = {
 	}
 	
 
+ 	SpriteType = {
+		name = "GFX_ideas_KAZ_saryarqa"
+		texturefile = "gfx/interface/ideas/ideas_KAZ_saryarqa.dds"			
+	}	
+
+
 	#######################
 	####  PLACEHOLDER  ####
 	#######################

@@ -124,9 +124,8 @@ focus_tree = {
 		y = 1
 	    completion_reward = {
 			add_equipment_to_stockpile = {
-				type = light_fighter
+				type = infantry_equipment_2
 				amount = 50
-				variant_name = "Ми-24"
 			}
         }
 	}
@@ -174,8 +173,7 @@ focus_tree = {
 		x = 0
 		y = 2
 	    completion_reward = {
-			air_ace_generation_chance_factor = 0.15
-			ace_effectiveness_factor = 0.1
+			add_ideas = { KAZ_Saryarqa_1 }
 			#Эффективность летчиков Асов +10%,вероятность появления аса +15%
         }
 	}
@@ -191,9 +189,10 @@ focus_tree = {
 		x = 0
 		y = 2
 	    completion_reward = {
-			ace_effectiveness_factor = 0.1
-			air_ace_generation_chance_factor = 0.1
-			air_attack_factor = 0.15
+			swap_ideas = {
+				remove_idea = KAZ_Saryarqa_1
+				add_idea = KAZ_Saryarqa_2
+			}
 			#Эффективность истреб.,бомбардировщиков и штурмов +15%,Асов +10%,Вероятность появления аса +10%
         }
 	}

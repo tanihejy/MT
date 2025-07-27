@@ -74,5 +74,44 @@ ideas = {
 				resistance_damage_to_garrison = -0.05
 			}
 		}
+
+		KAZ_Saryarqa_1 = {
+
+			removal_cost = -1
+			picture = "GFX_ideas_KAZ_saryarqa"
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = KAZ
+			}
+
+			modifier = {
+				air_ace_generation_chance_factor = 0.15
+				ace_effectiveness_factor = 0.1
+			}
+		}
+
+		KAZ_Saryarqa_2 = {
+
+			removal_cost = -1
+			picture = "GFX_ideas_KAZ_saryarqa"
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = KAZ
+			}
+
+			modifier = {
+				ace_effectiveness_factor = 0.2
+				air_ace_generation_chance_factor = 0.30
+				air_attack_factor = 0.15
+			}
+		}
     }
 }
