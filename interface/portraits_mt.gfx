@@ -64,5 +64,9 @@ spriteTypes = {
 		name = "GFX_portrait_MST_Shokov"
 		texturefile = "gfx/leaders/MST/MST_Shokov.dds"
 	}
-	
+
+	spriteType = {
+		name = "GFX_portrait_KAZ_Solid_Snake"
+		texturefile = "gfx/leaders/KAZ/KAZ_Solid_Snake.dds"
+	}
 }

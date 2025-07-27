@@ -29,15 +29,29 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	continuous_focus_position = { x = 20 y = 1000 }
-	
+
 	focus = {
-		id = KAZ_UBIR
+		id = KAZ_start
 		icon = GFX_focus_BRA_air_force
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		cost = 5
-		x = 1
+		x = 6
 		y = 0
+	    completion_reward = {
+			add_political_power = 50
+        }
+	}
+
+	focus = {
+		id = KAZ_UBIR
+		icon = GFX_focus_BRA_air_force
+
+		prerequisite = { focus = KAZ_start }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		cost = 5
+		x = 3
+		y = 1
 	    completion_reward = {
 			create_intelligence_agency = {
 				name = "УБИР"
@@ -54,4 +68,134 @@ focus_tree = {
 			}
         }
 	}
+
+	focus = {
+		id = KAZ_industrial_start
+		icon = GFX_focus_AFG_a_modern_economy
+
+		prerequisite = { focus = KAZ_start }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		cost = 6
+		x = 9
+		y = 1
+	    completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 2.0
+				uses = 2
+				category = construction_tech
+			}
+			add_stability = -0.10
+        }
+	}
+
+
+	focus = {
+		id = KAZ_air_start
+		icon = GFX_focus_KAZ_saryarqa2
+
+		prerequisite = { focus = KAZ_start }
+		search_filters = { FOCUS_FILTER_AIR_XP }
+		cost = 5
+		x = 15
+		y = 1
+	    completion_reward = {
+			recruit_character = KAZ_Pivnaya_sisya
+			air_experience = 25
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 2
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+        }
+	}
+
+	focus = {
+		id = KAZ_air_mi
+		icon = GFX_focus_cze_military_aeronautical_institute
+
+		prerequisite = { focus = KAZ_air_start }
+		relative_position_id = KAZ_air_start
+		search_filters = { FOCUS_FILTER_AIR_XP }
+		cost = 2
+		x = -1
+		y = 1
+	    completion_reward = {
+			add_equipment_to_stockpile = {
+				type = light_fighter
+				amount = 50
+				variant_name = "Ми-24"
+			}
+        }
+	}
+
+	focus = {
+		id = KAZ_air_expand_the_composition_of_aces
+		icon = GFX_focus_CONGO_congolese_generals
+
+		prerequisite = { focus = KAZ_air_start }
+		relative_position_id = KAZ_air_start
+		search_filters = { FOCUS_FILTER_AIR_XP }
+		cost = 5
+		x = 1
+		y = 1
+	    completion_reward = {
+			add_ace = {
+				name = ""
+				surname = ""
+				callsign = "Тюлень"
+				type = fighter_unique
+				is_female = no
+			}
+			add_ace = {
+				name = ""
+				surname = ""
+				callsign = "Комар"
+				type = fighter_unique
+				is_female = no
+			}
+
+			recruit_character = KAZ_Solid_Snake
+			#Добавляет доступ к НИИ по Авиации ученый "Solid Snake" Авиаинженер,2-3 черты на выбор,2 уровень.
+        }
+	}
+
+	focus = {
+		id = KAZ_air_New_training_program
+		icon = GFX_focus_generic_armored_air_support
+
+		prerequisite = { focus = KAZ_air_mi }
+		prerequisite = { focus = KAZ_air_expand_the_composition_of_aces }
+		relative_position_id = KAZ_air_start
+		search_filters = { FOCUS_FILTER_AIR_XP }
+		cost = 5
+		x = 0
+		y = 2
+	    completion_reward = {
+			air_ace_generation_chance_factor = 0.15
+			ace_effectiveness_factor = 0.1
+			#Эффективность летчиков Асов +10%,вероятность появления аса +15%
+        }
+	}
+
+	focus = {
+		id = KAZ_air_The_best_of_the_best
+		icon = GFX_focus_generic_armored_air_support
+
+		prerequisite = { focus = KAZ_air_New_training_program }
+		relative_position_id = KAZ_air_New_training_program
+		search_filters = { FOCUS_FILTER_AIR_XP }
+		cost = 10
+		x = 0
+		y = 2
+	    completion_reward = {
+			ace_effectiveness_factor = 0.1
+			air_ace_generation_chance_factor = 0.1
+			air_attack_factor = 0.15
+			#Эффективность истреб.,бомбардировщиков и штурмов +15%,Асов +10%,Вероятность появления аса +10%
+        }
+	}
+	
 }

@@ -83,4 +83,39 @@ characters = {
 			cost = 150
 		}
 	}
+
+	KAZ_Pivnaya_sisya = {
+		name = KAZ_Pivnaya_sisya
+		portraits = {
+			army = {
+				small = "GFX_idea_KAZ_Pivnaya_sisya"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = KAZ_Pivnaya_sisya
+			allowed = {
+				original_tag = KAZ
+			}
+			available = { has_completed_focus = KAZ_air_start }
+			cost = 150
+			traits = {
+				air_chief_ground_support_2
+			}
+		}
+	}
+
+	KAZ_Solid_Snake = {
+		name = KAZ_Solid_Snake
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_KAZ_Solid_Snake"
+			}
+		}
+		scientist = {
+			desc = KAZ_Solid_Snake
+			traits = { scientist_trait_helicopter_expert }
+			skills = { specialization_token = 2 }
+		}
+	}
 }

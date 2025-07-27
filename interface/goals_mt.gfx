@@ -5,4 +5,9 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/KAZ/focus_KAZ_Heisenberg.dds"			
 	}	
 	
+	SpriteType = {
+	name = "GFX_focus_KAZ_saryarqa2"
+	texturefile = "gfx/interface/goals/KAZ/focus_KAZ_saryarqa2.dds"			
+	}	
+	
 }

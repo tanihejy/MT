@@ -7,6 +7,9 @@
  KAZ_Alan_Hayatullah: "Алан Хаятуллах"
  KAZ_Alan_Bacha: "Алан Бача"
 
+ KAZ_Pivnaya_sisya: "Пивная сися"
+ KAZ_Solid_Snake: "Авиаинженер Солид Снейк"
+
 ### Партии ###
 
 ### Решения ###
@@ -44,6 +47,28 @@
 
 
 ### Фокусы ###
- KAZ_UBIR: "Создание УБИР"
- KAZ_UBIR_desc: "ыыыы"
+ KAZ_start: "Укрепление государства"
+ KAZ_start_desc: "-"
 
+
+## Промка
+ KAZ_industrial_start: "Дать Китайцам достроить ЛРТ"
+ KAZ_industrial_start_desc: "Отечественная компания задержала строительство ЛРТ и подозревается в отмывке денег,может пора рассмотреть другую кандидатуру?..."
+ 
+
+## УБИР
+ KAZ_UBIR: "Создание УБИР"
+ KAZ_UBIR_desc: "-"
+
+## Авиация
+ KAZ_air_start: "Основать Сарыарка-2"
+ KAZ_air_start_desc: "-"
+ KAZ_air_mi: "Угнать МИ-24"
+ KAZ_air_mi_desc: "-"
+ KAZ_air_expand_the_composition_of_aces: "Расширить состав"
+ KAZ_air_expand_the_composition_of_aces_desc: "-"
+ KAZ_air_New_training_program: "Новая программа обучения"
+ KAZ_air_New_training_program_desc: "-"
+ 
+ KAZ_air_The_best_of_the_best: "Лучшие из лучших"
+ KAZ_air_The_best_of_the_best_desc: "-"

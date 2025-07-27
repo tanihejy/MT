@@ -12,7 +12,6 @@ recruit_character = KAZ_Alan_Hayatullah
 recruit_character = KAZ_Alan_Bacha
 
 
-
 # ТЕХНОЛОГИИ
 
 set_technology = {

@@ -30,5 +30,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_Alan_Bacha.dds"
 	}
 
-	
+	SpriteType = {
+	name = "GFX_idea_KAZ_Pivnaya_sisya"
+	texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_Pivnaya_sisya.dds"			
+	}	
 }
