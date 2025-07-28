@@ -78,7 +78,7 @@ ideas = {
 		KAZ_Saryarqa_1 = {
 
 			removal_cost = -1
-			picture = "GFX_ideas_KAZ_saryarqa"
+			picture = "idea_KAZ_saryarqa"
 
 			allowed = {
 				always = no
@@ -97,7 +97,7 @@ ideas = {
 		KAZ_Saryarqa_2 = {
 
 			removal_cost = -1
-			picture = "GFX_ideas_KAZ_saryarqa"
+			picture = "idea_KAZ_saryarqa"
 
 			allowed = {
 				always = no

@@ -10384,12 +10384,59 @@ spriteTypes = {
 		name = "GFX_idea_KUW_anglo_kuwaiti_treaty"
 		texturefile = "gfx/interface/ideas/idea_KUW_anglo_kuwaiti_treaty.dds"
 	}
-	
+
+
+
+	#####################################
+
+	spriteType = {
+		name = "GFX_idea_KAZ_Heisenberg"
+		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_GEN_Heisenberg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PAW_general_andruha"
+		texturefile = "gfx/interface/ideas/advisors/PAW/PAW_general_andruha.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PAW_general_glent"
+		texturefile = "gfx/interface/ideas/advisors/PAW/PAW_general_glent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KAZ_Phantomo-Al-Kaido"
+		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_GEN_Phantomo-Al-Kaido.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KAZ_Agent"
+		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_Agent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KAZ_Alan_Bacha"
+		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_Alan_Bacha.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_idea_KAZ_Pivnaya_sisya"
+	texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_Pivnaya_sisya.dds"			
+	}	
+
 
  	SpriteType = {
-		name = "GFX_ideas_KAZ_saryarqa"
-		texturefile = "gfx/interface/ideas/ideas_KAZ_saryarqa.dds"			
+		name = "GFX_idea_KAZ_saryarqa"
+		texturefile = "gfx/interface/ideas/idea_KAZ_saryarqa.dds"			
 	}	
+
+
+
+
+
+
+
+
 
 
 	#######################
