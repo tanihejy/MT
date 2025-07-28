@@ -32,7 +32,7 @@ focus_tree = {
 
 	focus = {
 		id = KAZ_start
-		icon = GFX_focus_BRA_air_force
+		icon = GFX_focus_ARG_march_to_la_casa_rosada
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		cost = 5
@@ -49,10 +49,11 @@ focus_tree = {
 
 		prerequisite = { focus = KAZ_start }
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		cost = 5
+		cost = 10
 		x = 3
 		y = 1
 	    completion_reward = {
+
 			create_intelligence_agency = {
 				name = "УБИР"
 				icon = GFX_intelligence_agency_logo_agency
@@ -66,6 +67,83 @@ focus_tree = {
 				available_to_spy_master = yes
 				nationalities = { KAZ CHC HMB }
 			}
+
+			add_ideas = KAZ_ubir_idea
+        }
+	}
+
+	focus = {
+		id = KAZ_UBIR_osr
+		icon = GFX_focus_BRA_air_force
+
+		prerequisite = { focus = KAZ_UBIR }
+		relative_position_id = KAZ_UBIR
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		cost = 5
+		x = -2
+		y = 1
+	    completion_reward = {
+
+        }
+	}
+
+	focus = {
+		id = KAZ_UBIR_svr
+		icon = GFX_focus_BRA_air_force
+
+		prerequisite = { focus = KAZ_UBIR_osr }
+		relative_position_id = KAZ_UBIR_osr
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		cost = 5
+		x = -1
+		y = 1
+	    completion_reward = {
+
+        }
+	}
+
+	focus = {
+		id = KAZ_UBIR_ost
+		icon = GFX_focus_BRA_air_force
+
+		prerequisite = { focus = KAZ_UBIR }
+		relative_position_id = KAZ_UBIR
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		cost = 5
+		x = 0
+		y = 1
+	    completion_reward = {
+
+        }
+	}
+
+	focus = {
+		id = KAZ_UBIR_ssb
+		icon = GFX_focus_BRA_air_force
+
+		prerequisite = { focus = KAZ_UBIR }
+		relative_position_id = KAZ_UBIR
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		cost = 5
+		x = 2
+		y = 1
+	    completion_reward = {
+
+        }
+	}
+
+	focus = {
+		id = KAZ_UBIR_onn
+		icon = GFX_focus_BRA_air_force
+
+		prerequisite = { focus = KAZ_UBIR_ssb }
+		relative_position_id = KAZ_UBIR_ssb
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		cost = 5
+		x = 1
+		y = 1
+	    completion_reward = {
+
         }
 	}
 
@@ -76,7 +154,7 @@ focus_tree = {
 		prerequisite = { focus = KAZ_start }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		cost = 6
-		x = 9
+		x = 15
 		y = 1
 	    completion_reward = {
 			add_ideas = KAZ_lrt
@@ -147,7 +225,7 @@ focus_tree = {
 		prerequisite = { focus = KAZ_start }
 		search_filters = { FOCUS_FILTER_ARMY_XP }
 		cost = 10
-		x = 13
+		x = 20
 		y = 1
 	    completion_reward = {
 			army_experience = 25

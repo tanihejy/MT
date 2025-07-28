@@ -188,5 +188,23 @@ ideas = {
 			}
 		}
 
+		KAZ_ubir_idea = {
+
+			removal_cost = -1
+			picture = "KAZ_ubir_ideas"
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = KAZ
+			}
+
+			modifier = {
+				operative_slot = 1
+			}
+		}
+
     }
 }

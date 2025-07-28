@@ -59,7 +59,7 @@ characters = {
 			allowed = {
 				original_tag = KAZ
 			}
-			available = { }
+			available = { has_completed_focus = KAZ_UBIR }
 			traits = { UBIR_agent }
 			cost = 150
 		}
