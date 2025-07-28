@@ -79,25 +79,92 @@ focus_tree = {
 		x = 9
 		y = 1
 	    completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 2.0
-				uses = 2
-				category = construction_tech
+			add_ideas = KAZ_lrt
+			add_stability = -0.10
+        }
+	}
+
+	focus = {
+		id = KAZ_industrial_bigroup
+		icon = GFX_focus_GER_vereinigte_stahlwerke
+
+		prerequisite = { focus = KAZ_industrial_start }
+		relative_position_id = KAZ_industrial_start
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		cost = 10
+		x = 0
+		y = 1
+	    completion_reward = {
+			add_ideas = KAZ_bigroup
+			add_stability = 0.05
+			add_manpower = 3
+			add_offsite_building = { type = industrial_complex level = 2 }
+        }
+	}
+
+
+	focus = {
+		id = KAZ_industrial_bigroup_transformation
+		icon = GFX_focus_GER_plenipotentiary_of_the_four_year_plan
+
+		prerequisite = { focus = KAZ_industrial_bigroup }
+		relative_position_id = KAZ_industrial_bigroup
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		cost = 10
+		x = 0
+		y = 1
+	    completion_reward = {
+			swap_ideas = {
+				remove_idea = KAZ_bigroup
+				add_idea = KAZ_bigroup_2
 			}
+			add_stability = 0.05
+        }
+	}
+
+	focus = {
+		id = KAZ_industrial_uzbeki
+		icon = GFX_focus_hol_the_foundations_of_defense
+
+		prerequisite = { focus = KAZ_industrial_bigroup_transformation }
+		relative_position_id = KAZ_industrial_bigroup_transformation
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		cost = 10
+		x = 0
+		y = 1
+	    completion_reward = {
+			add_ideas = KAZ_uzbeky
+			add_manpower = 500
 			add_stability = -0.10
         }
 	}
 
 
 	focus = {
+		id = KAZ_army_start
+		icon = GFX_focus_generic_full_social_mobilization
+
+		prerequisite = { focus = KAZ_start }
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		cost = 10
+		x = 13
+		y = 1
+	    completion_reward = {
+			army_experience = 25
+        }
+	}
+
+
+
+	focus = {
 		id = KAZ_air_start
 		icon = GFX_focus_KAZ_saryarqa2
 
-		prerequisite = { focus = KAZ_start }
+		prerequisite = { focus = KAZ_army_start }
+		relative_position_id = KAZ_army_start
 		search_filters = { FOCUS_FILTER_AIR_XP }
 		cost = 5
-		x = 15
+		x = 3
 		y = 1
 	    completion_reward = {
 			recruit_character = KAZ_Pivnaya_sisya

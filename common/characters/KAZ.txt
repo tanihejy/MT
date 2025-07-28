@@ -78,7 +78,7 @@ characters = {
 			allowed = {
 				original_tag = KAZ
 			}
-			available = { }
+			available = { has_completed_focus = KAZ_industrial_bigroup }
 			traits = { great_architect_2 }
 			cost = 150
 		}

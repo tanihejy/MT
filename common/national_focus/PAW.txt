@@ -56,4 +56,17 @@ focus_tree = {
 			add_ideas = PAW_kgb
         }
 	}
+
+	focus = {
+		id = PAW_make_sdro
+		icon = GFX_focus_SOV_a_global_class_struggle
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		cost = 5
+		x = 5
+		y = 4
+	    completion_reward = {
+			set_cosmetic_tag = PAW_SDRO
+        }
+	}
 }

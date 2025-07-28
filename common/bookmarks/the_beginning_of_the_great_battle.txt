@@ -46,9 +46,14 @@ bookmarks = {
 			history = KAZ_GREAT_BATTLE_BEGINS_DESC
 			ideology = democratic
 			ideas={
+				KAZ_lrt
 				KAZ_Saryarqa_1
+				KAZ_uzbeky
 			}
 			focuses = {
+				KAZ_industrial_bigroup
+				KAZ_air_start
+				KAZ_air_expand_the_composition_of_aces
 			}
 		}
 

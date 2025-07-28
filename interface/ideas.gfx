@@ -10426,8 +10426,8 @@ spriteTypes = {
 
 
  	SpriteType = {
-		name = "GFX_idea_KAZ_saryarqa"
-		texturefile = "gfx/interface/ideas/idea_KAZ_saryarqa.dds"			
+		name = "GFX_idea_KAZ_saryarqa_ideas"
+		texturefile = "gfx/interface/ideas/KAZ_saryarqa_ideas.dds"			
 	}	
 
 

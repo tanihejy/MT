@@ -78,7 +78,7 @@ ideas = {
 		KAZ_Saryarqa_1 = {
 
 			removal_cost = -1
-			picture = "idea_KAZ_saryarqa"
+			picture = "KAZ_saryarqa_ideas"
 
 			allowed = {
 				always = no
@@ -97,7 +97,7 @@ ideas = {
 		KAZ_Saryarqa_2 = {
 
 			removal_cost = -1
-			picture = "idea_KAZ_saryarqa"
+			picture = "KAZ_saryarqa_ideas"
 
 			allowed = {
 				always = no
@@ -113,5 +113,80 @@ ideas = {
 				air_attack_factor = 0.15
 			}
 		}
+
+		KAZ_lrt = {
+
+			removal_cost = -1
+			picture = "ARG_invest_in_railways"
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = KAZ
+			}
+
+			modifier = {
+                production_speed_infrastructure_factor = 0.2
+			}
+		}
+
+		KAZ_bigroup = {
+
+			removal_cost = -1
+			picture = "ARG_rapid_militarization"
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = KAZ
+			}
+
+			modifier = {
+                production_speed_buildings_factor = 0.05
+			}
+		}
+
+		KAZ_bigroup_2 = {
+
+			removal_cost = -1
+			picture = "ARG_rapid_militarization"
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = KAZ
+			}
+
+			modifier = {
+                production_speed_buildings_factor = 0.10
+                consumer_goods_factor = -0.05
+			}
+		}
+
+		KAZ_uzbeky = {
+
+			removal_cost = -1
+			picture = "AFG_placated_graduates"
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = KAZ
+			}
+
+			modifier = {
+                production_speed_buildings_factor = 0.5
+                consumer_goods_factor = -0.05
+			}
+		}
+
     }
 }

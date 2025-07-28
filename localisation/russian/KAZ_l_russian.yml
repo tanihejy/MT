@@ -22,6 +22,11 @@
  KAZ_Saryarqa_1: "Авиакрыло Сарыарка-2"
  KAZ_Saryarqa_2: "Авиакрыло Сарыарка-2"
 
+ KAZ_lrt: "ЛРТ"
+ KAZ_bigroup: "BI GROUP"
+ KAZ_bigroup_2: "BI GROUP"
+ KAZ_uzbeky: "Узбеки идут"
+
 ### Название страны ###
  KAZ_fascism: "Алаш-Орда"
  KAZ_fascism_DEF: "Алаш-Орда"
@@ -54,22 +59,32 @@
 
 ## Промка
  KAZ_industrial_start: "Дать Китайцам достроить ЛРТ"
- KAZ_industrial_start_desc: "Отечественная компания задержала строительство ЛРТ и подозревается в отмывке денег,может пора рассмотреть другую кандидатуру?..."
- 
+ KAZ_industrial_start_desc: "Отечественная компания задержала строительство ЛРТ и подозревается в отмывке денег, может пора рассмотреть другую кандидатуру?..."
+ KAZ_industrial_bigroup: "Основать ''BI GROUP''"
+ KAZ_industrial_bigroup_desc: "Некий Айдын Рахимбаев готов создать строительную компанию что будет строить ЖК и прочую инфраструктуру в 10 раз быстрее иных компаний, обещает  быструю и качественную застройку, предлагает услуги для отстройки столицы и лучшего строителя Алана Бача."
+ KAZ_industrial_bigroup_transformation: "Преобразование BI GROUP в транс-нац холдинг"
+ KAZ_industrial_bigroup_transformation_desc: "BI GROUP стрельнул,получив заказ в Ташкенте,Дубае и прочих странах на отстройку! Неуж-то успех?"
+ KAZ_industrial_uzbeki: "Узбеки идут"
+ KAZ_industrial_uzbeki_desc: "Быстро, дешёво, хуёво. Зато с пловом. Чурки сука. "
 
 ## УБИР
  KAZ_UBIR: "Создание УБИР"
  KAZ_UBIR_desc: "-"
 
+## Армия
+ KAZ_army_start: "Основать ''Каидо''"
+ KAZ_army_start_desc: "Перейдя в духи мы основали Каидо, отряд обычных духов, пришли я, олег, барин, грач и другие."
+
+
 ## Авиация
  KAZ_air_start: "Основать Сарыарка-2"
- KAZ_air_start_desc: "-"
+ KAZ_air_start_desc: "Чигур предложил оформить ВВС, почему бы и нет? А, у нас нет вертолетов?... Похуй, угоним у русни, хуй с ним."
  KAZ_air_mi: "Угнать МИ-24"
- KAZ_air_mi_desc: "-"
+ KAZ_air_mi_desc: "Пора и угонять вертолет хули. Теневую ебанем, состав: Solid Snake, Фантом, Чигур, Алибаба, Штирлиц"
  KAZ_air_expand_the_composition_of_aces: "Расширить состав"
- KAZ_air_expand_the_composition_of_aces_desc: "-"
+ KAZ_air_expand_the_composition_of_aces_desc: "Расширить состав ВВС?... У нас же вертолеты раз в год... ай хуй с ним!"
  KAZ_air_New_training_program: "Новая программа обучения"
- KAZ_air_New_training_program_desc: "-"
+ KAZ_air_New_training_program_desc: "Эффективно оказалось, на первом же ивенте верт разбился нахуй. А второй раз корт забыл шасси убрать, ну ладно оформим новую программу обучения!"
  
  KAZ_air_The_best_of_the_best: "Лучшие из лучших"
- KAZ_air_The_best_of_the_best_desc: "-"
+ KAZ_air_The_best_of_the_best_desc: "Мы и вправду стали лучшими из лучших, даже не верится, размен 1 к 100!"
