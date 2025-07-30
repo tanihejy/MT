@@ -269,8 +269,9 @@ focus_tree = {
 		y = 1
 	    completion_reward = {
 			add_equipment_to_stockpile = {
-				type = infantry_equipment_2
-				amount = 50
+				type = small_plane_airframe_0
+				amount = 100
+				variant_name = "Mi-24"
 			}
         }
 	}
