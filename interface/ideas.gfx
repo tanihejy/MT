@@ -10435,9 +10435,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/KAZ_ubir_ideas.dds"			
 	}	
 
+	spriteType = {
+		name = "GFX_idea_PAW_alkash"
+		texturefile = "gfx/interface/ideas/advisors/PAW/PAW_alkash.dds"
+	}
 
 
-
+	spriteType = {
+		name = "GFX_idea_PAW_pytin"
+		texturefile = "gfx/interface/ideas/advisors/PAW/PAW_pytin.dds"
+	}
 
 
 	#######################

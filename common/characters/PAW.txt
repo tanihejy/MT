@@ -34,6 +34,16 @@ characters = {
 				small = "GFX_idea_PAW_general_andruha"
 			}
 		}
+		advisor = {
+			slot = army_chief
+			idea_token = PAW_general_andruha
+			allowed = {
+				original_tag = PAW
+			}
+			available = {  }
+			traits = { army_chief_offensive_2 }
+			cost = 150
+		}
 		corps_commander={
 			traits = { old_guard infantry_officer }
 			skill=4
@@ -59,6 +69,44 @@ characters = {
 			defense_skill=4
 			planning_skill=5
 			logistics_skill=3
+		}
+	}
+
+	PAW_alkash = {
+		name = PAW_alkash
+		portraits = {
+			army = {
+				small = "GFX_idea_PAW_alkash"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PAW_alkash
+			allowed = {
+				original_tag = PAW
+			}
+			available = {  }
+			traits = { Bloodyhorse }
+			cost = 250
+		}
+	}
+
+	PAW_pytin = {
+		name = PAW_pytin
+		portraits = {
+			army = {
+				small = "GFX_idea_PAW_pytin"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PAW_pytin
+			allowed = {
+				original_tag = PAW
+			}
+			available = {  }
+			traits = { popular_figurehead  }
+			cost = 150
 		}
 	}
 }

@@ -9,6 +9,8 @@ add_ideas = { }
 recruit_character = PAW_payk
 recruit_character = PAW_general_andruha
 recruit_character = PAW_general_glent
+recruit_character = PAW_alkash
+recruit_character = PAW_pytin
 
 
 # ТЕХНОЛОГИИ

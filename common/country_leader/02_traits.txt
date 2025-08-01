@@ -23,4 +23,13 @@ leader_traits = {
 		weekly_casualties_war_support = 0.001
 		ai_desired_divisions_factor = 0.20
 	}
+
+	Bloodyhorse = {
+		random = no
+		sprite = 13
+		political_power_factor = 0.15
+		resistance_damage_to_garrison = -0.25
+		foreign_subversive_activites = -0.3
+		non_core_manpower = 0.02
+	}
 }
