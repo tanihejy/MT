@@ -1,0 +1,16 @@
+add_namespace = mt_world_news
+
+news_event = {
+    id = mt_world_news.1
+    title = mt_world_news.1.t
+    desc = mt_world_news.1.desc
+    picture = GFX_news_event_024
+    
+    major = yes
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = mt_world_news.1.a
+    }
+}

@@ -1,0 +1,19 @@
+add_namespace = mt
+
+
+# лор мода
+
+	country_event = {
+		id = mt.1
+		title = mt.1.t
+		desc = mt.1.d
+		
+		picture = GFX_report_event_generic_read_write
+		fire_only_once = no
+        is_triggered_only = yes
+    
+		option = {
+			name = mt.1.a
+			ai_chance = { factor = 0 }
+		}
+	}
