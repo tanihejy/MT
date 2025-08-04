@@ -17,3 +17,30 @@ add_namespace = mt
 			ai_chance = { factor = 0 }
 		}
 	}
+
+add_namespace = kaz_event
+
+# Казахстан
+
+	country_event = {
+		id = kaz_event.1
+		title = kaz_event.1.t
+		desc = kaz_event.1.d
+		
+		picture = GFX_report_event_bul_boris_with_hitler
+		fire_only_once = no
+        is_triggered_only = yes
+    
+		option = {
+			name = kaz_event.1.a
+			ai_chance = { factor = 100 }
+			KAZ = {
+				recruit_character = KAZ_Kort-Al-Kaido
+			}
+			add_political_power = 25
+		}
+		option = {
+			name = kaz_event.1.b
+			ai_chance = { factor = 0 }
+		}
+	}

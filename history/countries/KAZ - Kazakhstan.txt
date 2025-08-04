@@ -11,6 +11,9 @@ recruit_character = KAZ_Fantom
 recruit_character = KAZ_Phantomo-Al-Kaido
 recruit_character = KAZ_Alan_Hayatullah
 recruit_character = KAZ_Alan_Bacha
+recruit_character = KAZ_general_cold
+recruit_character = KAZ_general_Stirlitz
+recruit_character = KAZ_Pivnaya_sisya
 
 
 # ТЕХНОЛОГИИ

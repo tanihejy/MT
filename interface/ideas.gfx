@@ -10446,6 +10446,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/advisors/PAW/PAW_pytin.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_KAZ_Kort-Al-Kaido"
+		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_Kort-Al-Kaido.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KAZ_general_Stirlitz"
+		texturefile = "gfx/interface/ideas/advisors/KAZ/KAZ_general_Stirlitz.dds"
+	}
 
 	#######################
 	####  PLACEHOLDER  ####

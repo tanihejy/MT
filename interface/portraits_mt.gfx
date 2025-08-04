@@ -6,6 +6,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_KAZ_Kort-Al-Kaido"
+		texturefile = "gfx/leaders/KAZ/KAZ_Kort-Al-Kaido.dds"
+	}
+
+	spriteType = {
 		name = "GFX_portrait_PAW_payk"
 		texturefile = "gfx/leaders/PAW/PAW_payk.dds"
 	}
@@ -16,8 +21,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_portrait_CHC_Heisenberg"
-		texturefile = "gfx/leaders/CHC/CHC_Heisenberg.dds"
+		name = "GFX_portrait_KAZ_general_cold"
+		texturefile = "gfx/leaders/KAZ/KAZ_general_cold.dds"
 	}
 
 	spriteType = {
@@ -68,5 +73,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_KAZ_Solid_Snake"
 		texturefile = "gfx/leaders/KAZ/KAZ_Solid_Snake.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KAZ_general_Stirlitz"
+		texturefile = "gfx/leaders/KAZ/KAZ_general_Stirlitz.dds"
 	}
 }

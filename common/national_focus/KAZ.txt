@@ -154,7 +154,7 @@ focus_tree = {
 		prerequisite = { focus = KAZ_start }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		cost = 6
-		x = 15
+		x = 10
 		y = 1
 	    completion_reward = {
 			add_ideas = KAZ_lrt
@@ -225,10 +225,71 @@ focus_tree = {
 		prerequisite = { focus = KAZ_start }
 		search_filters = { FOCUS_FILTER_ARMY_XP }
 		cost = 10
-		x = 20
+		x = 15
 		y = 1
 	    completion_reward = {
 			army_experience = 25
+			add_field_marshal_role = {
+				character = KAZ_Fantom
+				traits = { media_personality fortress_buster }
+				skill = 3
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 1
+			}
+			add_ideas = { KAZ_kaido_idea }
+        }
+	}
+
+	focus = {
+		id = KAZ_army_to_vanguard
+		icon = GFX_focus_AFG_quami
+
+		prerequisite = { focus = KAZ_army_start }
+		relative_position_id = KAZ_army_start
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		cost = 10
+		x = -1
+		y = 1
+	    completion_reward = {
+			army_experience = 15
+			add_ideas = { KAZ_vanguard_idea }
+			KRT = {
+				country_event = kaz_event.1
+			}
+        }
+	}
+
+	focus = {
+		id = KAZ_army_expand_the_composition
+		icon = GFX_focus_AFG_royal_guard
+
+		prerequisite = { focus = KAZ_army_to_vanguard }
+		relative_position_id = KAZ_army_to_vanguard
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		cost = 5
+		x = 0
+		y = 1
+	    completion_reward = {
+			add_corps_commander_role = {
+				character = KAZ_general_cold
+				traits = { cavalry_leader }
+				skill=2
+				attack_skill=3
+				defense_skill=1
+				planning_skill=3
+				logistics_skill=1
+			}
+			add_corps_commander_role = {
+				character = KAZ_general_Stirlitz
+				traits = { cavalry_leader }
+				skill=2
+				attack_skill=2
+				defense_skill=2
+				planning_skill=1
+				logistics_skill=1
+			}	
         }
 	}
 
@@ -245,7 +306,6 @@ focus_tree = {
 		x = 3
 		y = 1
 	    completion_reward = {
-			recruit_character = KAZ_Pivnaya_sisya
 			air_experience = 25
 			add_tech_bonus = {
 				name = fighter_bonus

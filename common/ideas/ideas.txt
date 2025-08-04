@@ -206,5 +206,44 @@ ideas = {
 			}
 		}
 
+		KAZ_kaido_idea = {
+
+			removal_cost = -1
+			picture = "generic_infantry_bonus"
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = KAZ
+			}
+
+			modifier = {
+				army_attack_factor = 0.05
+				stability_factor = -0.05
+			}
+		}
+
+		KAZ_vanguard_idea = {
+
+			removal_cost = -1
+			picture = "AFG_adopt_nufus"
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = KAZ
+			}
+
+			modifier = {
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.05
+				stability_factor = -0.10
+			}
+		}
+
     }
 }

@@ -57,9 +57,10 @@ bookmarks = {
 			}
 		}
 
-		CHC = {
-			history = CHC_GREAT_BATTLE_BEGINS_DESC
-			ideology = fascism
+		MST = {
+			history = MST_GREAT_BATTLE_BEGINS_DESC
+			minor = yes
+			ideology = democratic
 			ideas={
 			}
 			focuses = {

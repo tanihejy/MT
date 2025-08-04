@@ -17,14 +17,28 @@ characters = {
 			expire="1965.1.1.1"
 			id = -9004
 		}
-        field_marshal = {
-            traits = { media_personality }
-            skill = 1
-            attack_skill = 1
-            defense_skill = 1
-            planning_skill = 1
-            logistics_skill = 1
-        }
+	}
+
+    KAZ_Kort-Al-Kaido = {
+		name = KAZ_Kort-Al-Kaido
+		portraits = {
+            army = {
+                large = "GFX_portrait_KAZ_Kort-Al-Kaido"
+				small = "GFX_idea_KAZ_Kort-Al-Kaido"
+            }
+		}
+		corps_commander={
+			traits = {
+				cavalry_leader
+				combined_arms_expert 
+				improvisation_expert
+			}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=5
+		}
 	}
 
 	KAZ_Phantomo-Al-Kaido = {
@@ -36,12 +50,32 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits = { infantry_officer }
+			traits = { infantry_officer cavalry_leader }
 			skill=3
 			attack_skill=4
 			defense_skill=4
 			planning_skill=3
 			logistics_skill=1
+		}
+	}
+
+	KAZ_general_cold= {
+		name = KAZ_general_cold
+		portraits = {
+			army = {
+				large = "GFX_portrait_KAZ_general_cold"
+				small = "GFX_idea_KAZ_GEN_Heisenberg"
+			}
+		}
+	}
+
+	KAZ_general_Stirlitz= {
+		name = KAZ_general_Stirlitz
+		portraits = {
+			army = {
+				large = "GFX_portrait_KAZ_general_Stirlitz"
+				small = "GFX_idea_KAZ_general_Stirlitz"
+			}
 		}
 	}
 
