@@ -13,7 +13,7 @@ focus_tree = {
 	continuous_focus_position = { x = 20 y = 1000 }
 	
 	focus = {
-		id = KRT_start
+		id = KRT_industrial
 		icon = GFX_focus_AUS_the_evidenzburo_democratic
 
 		search_filters = { FOCUS_FILTER_POLITICAL }

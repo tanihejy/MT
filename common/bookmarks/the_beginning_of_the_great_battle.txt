@@ -42,7 +42,7 @@ bookmarks = {
 			}
 		}
 
-		KAZ = {
+		FAN = {
 			history = KAZ_GREAT_BATTLE_BEGINS_DESC
 			ideology = democratic
 			ideas={

@@ -36,25 +36,25 @@
  KAZ_vanguard_idea: "''Авангард''"
 
 ### Название страны ###
- KAZ_fascism: "Алаш-Орда"
- KAZ_fascism_DEF: "Алаш-Орда"
+ FAN_fascism: "Алаш-Орда"
+ FAN_fascism_DEF: "Алаш-Орда"
 
- KAZ_democratic: "Казахстан"
- KAZ_democratic_DEF: "Казахстан"
+ FAN_democratic: "Казахстан"
+ FAN_democratic_DEF: "Казахстан"
 
- KAZ_neutrality: "Казахстанское ханство"
- KAZ_neutrality_DEF: "Казахстанское ханство"
+ FAN_neutrality: "Казахстанское ханство"
+ FAN_neutrality_DEF: "Казахстанское ханство"
 
- KAZ_communism: "Казахская Советская Социалистическая Республика"
- KAZ_communism_DEF: "Казахская Советская Социалистическая Республика"
+ FAN_communism: "Казахская Советская Социалистическая Республика"
+ FAN_communism_DEF: "Казахская Советская Социалистическая Республика"
 
- KAZ_fascism_ADJ: "Казахстанск"
- KAZ_democratic_ADJ: "Казахстанск"
- KAZ_neutrality_ADJ: "Казахстанск"
- KAZ_communism_ADJ: "Казахстанск"
- KAZ: "Казахстан"
- KAZ_DEF: "Казахстан"
- KAZ_ADJ: "Казахстанск"
+ FAN_fascism_ADJ: "Казахстанск"
+ FAN_democratic_ADJ: "Казахстанск"
+ FAN_neutrality_ADJ: "Казахстанск"
+ FAN_communism_ADJ: "Казахстанск"
+ FAN: "Казахстан"
+ FAN_DEF: "Казахстан"
+ FAN_ADJ: "Казахстанск"
 
 
 ### Ивенты ###

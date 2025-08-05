@@ -91,7 +91,7 @@ characters = {
 			slot = political_advisor
 			idea_token = KAZ_Alan_Hayatullah
 			allowed = {
-				original_tag = KAZ
+				original_tag = FAN
 			}
 			available = { has_completed_focus = KAZ_UBIR }
 			traits = { UBIR_agent }
@@ -110,7 +110,7 @@ characters = {
 			slot = political_advisor
 			idea_token = KAZ_Alan_Bacha
 			allowed = {
-				original_tag = KAZ
+				original_tag = FAN
 			}
 			available = { has_completed_focus = KAZ_industrial_bigroup }
 			traits = { great_architect_2 }
@@ -129,7 +129,7 @@ characters = {
 			slot = air_chief
 			idea_token = KAZ_Pivnaya_sisya
 			allowed = {
-				original_tag = KAZ
+				original_tag = FAN
 			}
 			available = { has_completed_focus = KAZ_air_start }
 			cost = 150

@@ -9,13 +9,13 @@ state = {
 			1614 1
 		}
 		
-		owner = KAZ
+		owner = FAN
 		
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = KAZ
+		add_core_of = FAN
 	}
 
 	provinces = {

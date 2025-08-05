@@ -2,7 +2,7 @@
 #PAW - Паук
 #KRT - Корт
 #OLG - Олег
-#KAZ - Фантом
+#FAN - Фантом
 #CHC - Чучундра
 #PNH - Панихида
 #HMB - Барин
@@ -18,7 +18,7 @@
 PAW = "countries/Udmurtia.txt"
 KRT = "countries/Tver.txt"
 OLG = "countries/Ekb.txt"
-KAZ = "countries/Kazakhstan.txt"
+FAN = "countries/Kazakhstan.txt"
 CHC = "countries/Chuchundra.txt"
 PNH = "countries/Murmansk.txt"
 HMB = "countries/Buryatia.txt"

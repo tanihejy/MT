@@ -1139,7 +1139,7 @@ OLG = {
 	color_ui = rgb { 245 222 179 }	
 }
 
-KAZ = {
+FAN = {
 	color = rgb { 75 184 203 }
 	color_ui = rgb { 75 184 203 }	
 }

@@ -1,9 +1,14 @@
 ﻿l_russian:
 
 ### Персонажи ###
- KRT_Kort: "Корт"
+ KRT_Kort: "Генерал «Корт»"
 
 ### Партии ###
+ KRT_neutrality_party: "ДГК"
+ KRT_neutrality_party_long: "Движение генерала Корта"
+ KRT_communism_party: "КНД"
+ KRT_communism_party_long: "Калининское Народное Движение"
+
 
 ### Решения ###
 
@@ -25,8 +30,8 @@
  KRT_communism_ADJ: "Калининск"
 
 
- KRT_neutrality: "Тверь"
- KRT_neutrality_DEF: "Тверь"
+ KRT_neutrality: "Калининский округ"
+ KRT_neutrality_DEF: "Калининский округ"
  KRT_neutrality_ADJ: "Тверск"
 
 
@@ -34,7 +39,7 @@
 
 
 ### Фокусы ###
- KRT_start: "Начать реформы промышленности"
- KRT_start_desc: "Пришло время для проведения промышленных реформ для повышения уровня производства в нашей стране."
+ KRT_industrial: "Начать реформы промышленности"
+ KRT_industrial_desc: "Пришло время для проведения промышленных реформ для повышения уровня производства в нашей стране."
 
 
